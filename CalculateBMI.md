@@ -1,8 +1,8 @@
-#โปรแกรมคำนวณหาค่าดัชนีมวลกาย(BMI)
+# โปรแกรมคำนวณหาค่าดัชนีมวลกาย(BMI)
 
-    ให้โปรแกรมรับจำนวน 3 อย่างคือ น้ำหนัก(กิโลกรัม) ส่วนสูง(เซนติเมตร) และภาวะเสี่ยงโรค 
-    โดยภาวะเสี่ยงโรคกำหนดให้รับตัวอักษร Y เพื่อให้โปรแกรมแสดงค่าภาวะหรือตัวอักษร N เพื่อไม่ให้แสดงค่าภาวะใดๆ (ตัวพิมพ์ใหญ่เท่านั้น) 
-    และให้โปรแกรมคืนค่า BMI เป็นจุดทศนิยมสองตำแหน่ง โดยแบ่งเป็นกรณีดังนี้
+ให้โปรแกรมรับจำนวน 3 อย่างคือ น้ำหนัก(กิโลกรัม) ส่วนสูง(เซนติเมตร) และภาวะเสี่ยงโรค 
+โดยภาวะเสี่ยงโรคกำหนดให้รับตัวอักษร Y เพื่อให้โปรแกรมแสดงค่าภาวะหรือตัวอักษร N เพื่อไม่ให้แสดงค่าภาวะใดๆ (ตัวพิมพ์ใหญ่เท่านั้น) 
+และให้โปรแกรมคืนค่า BMI เป็นจุดทศนิยมสองตำแหน่ง โดยแบ่งเป็นกรณีดังนี้
 
 1.	BMI น้อยกว่า 18.50 ให้โปรแกรมคืนค่า “Underweight” และภาวะเสี่ยงโรคให้คืนค่า “More than Normal”
 2.	BMI อยู่ระหว่าง 18.50 – 24.90 ให้โปรแกรมคืนค่า “Normal Weight” และภาวะเสี่ยงโรคให้คืนค่า “Normal”
@@ -15,20 +15,20 @@
 
 ---
 
-**ตัวอย่าง** **Input/Output**
+### **ตัวอย่าง** **Input/Output**
 
 ```
-Enter your weight: **65**
-Enter your height: **186**
-Want to know the risk of disease?(Y/N) **Y**
-Your BMI is **18.79**
+Enter your weight: 65
+Enter your height: 186
+Want to know the risk of disease?(Y/N) Y
+Your BMI is 18.79
 Normal Weight and your risk of disease is Normal.
 ```
 
 ```
-Enter your weight: **70**
-Enter your height: **160**
-Want to know the risk of disease?(Y/N) **N**
+Enter your weight: 70
+Enter your height: 160
+Want to know the risk of disease?(Y/N) N
 Your BMI is 27.34
 Overweight
 ```
